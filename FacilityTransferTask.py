@@ -14,7 +14,7 @@ url_api = url_api
  
 #文件存放路径
 file_path = localpath
-excel_name = excel_name
+excel_name = FacilityTransferTaskFileName
  
 #判断文件目录的存在性
 def dir_exists(file_path):
