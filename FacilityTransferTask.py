@@ -6,14 +6,15 @@ import xlwt
 import xlrd
 from xlutils import copy
 import os
+from wikivar import *
  
 # 功能点wiki
-url_api = 'xxx'
+url_api = url_api
  
  
 #文件存放路径
-file_path ='E:\\ggj\\cdctsc\\wikiScanReport\\'
-excel_name = '设施移交台账.xls'
+file_path = localpath
+excel_name = excel_name
  
 #判断文件目录的存在性
 def dir_exists(file_path):
@@ -46,7 +47,7 @@ def file_excel_exists(file_name):
 #爬取页面信息
 def get_html_content():
     conn = requests.session()
-    conn.auth = ("xxx","123456")
+    conn.auth = (wikiusername,wikipassword)
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
     }
