@@ -2,5 +2,4 @@ ssh-agent bash
 
 ssh-add "C:\Users\Administrator\.ssh\ddd"
 
-
 git push --set-upstream origin master
