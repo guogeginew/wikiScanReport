@@ -106,8 +106,7 @@ def export_content(res_soup_api,class_name,sheet_name):
             #调用方法向excel表内写入数据
             #print("msg_value: ", msg_value)
             excel_data_write(sheet_name,i,n,msg_value)
-    print('文件内容导出完成...')
-    print("*****************************************************")
+    print('文件内容导出完成...')    
     print("*****************************************************")
      
 
