@@ -8,7 +8,7 @@ from xlutils import copy
 import os
  
 # 功能点wiki
-url_api = 'http://117.174.121.179:8090/pages/viewpage.action?pageId=15728991'
+url_api = 'xxx'
  
  
 #文件存放路径
@@ -46,7 +46,7 @@ def file_excel_exists(file_name):
 #爬取页面信息
 def get_html_content():
     conn = requests.session()
-    conn.auth = ("gongguojing","123456")
+    conn.auth = ("xxx","123456")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
     }
